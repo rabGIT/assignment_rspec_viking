@@ -125,7 +125,6 @@ describe Viking do
 
     it ' death raises an error ' do
       expect{ loop { viking.attack(victim) } }.to raise_error(RuntimeError, "#{victim.name} has Died...")
-
     end
   end
 
